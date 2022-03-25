@@ -1,4 +1,4 @@
-package gofile
+package dirlist
 
 import (
 	"flag"
