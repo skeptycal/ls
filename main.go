@@ -48,9 +48,7 @@ func main() {
 	fmt.Println()
 
 	for i := 0; i < 5; i++ {
-		// a := new(ansiColorCode)
-		var v ansiColorCode = 1
-		fmt.Println(v)
+		fmt.Println(ansiFmt(i))
 	}
 
 }

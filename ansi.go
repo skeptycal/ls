@@ -19,6 +19,10 @@ func (c Color) String() string {
 	return string(c)
 }
 
+func ansiFmt(i int) string {
+	return fmt.Sprintf(ansiFMT, i)
+}
+
 func CPrint(color Color, message string) {
 	fmt.Println(color, message, ColorReset)
 }
