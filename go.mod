@@ -1,4 +1,4 @@
-module github.com/skeptycal/goutil/.manage/dirlist
+module github.com/skeptycal/goutil/os/ls
 
 go 1.18
 

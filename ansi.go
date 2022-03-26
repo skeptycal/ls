@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const ansiFMT string = "\u001b[%dm"
+const ansiFMT string = `\u001b[%dm`
 
 type Color string
 
